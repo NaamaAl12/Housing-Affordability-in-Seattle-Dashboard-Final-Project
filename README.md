@@ -1,7 +1,7 @@
 # Housing Affordability Smart Dashboard
 
 ## Project URL 
-
+https://naamaal12.github.io/Housing-Affordability-in-Seattle-Dashboard-Final-Project/
 ---
 
 ## Team Members  
