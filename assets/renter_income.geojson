@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "Renter_Households_by_Income_Category",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "YEAR": 2006, "F0___30_": 31423, "F30___50_": 16393, "F50___80_": 26429, "F80___120_": 24167, "Above_120_": 30879 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "YEAR": 2007, "F0___30_": 33680, "F30___50_": 17686, "F50___80_": 29166, "F80___120_": 22725, "Above_120_": 26923 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "YEAR": 2008, "F0___30_": 33598, "F30___50_": 19794, "F50___80_": 30501, "F80___120_": 22946, "Above_120_": 26244 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "YEAR": 2009, "F0___30_": 33513, "F30___50_": 24229, "F50___80_": 34712, "F80___120_": 22515, "Above_120_": 31187 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "YEAR": 2010, "F0___30_": 40700, "F30___50_": 25303, "F50___80_": 29499, "F80___120_": 23176, "Above_120_": 30376 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "YEAR": 2011, "F0___30_": 43795, "F30___50_": 19808, "F50___80_": 30612, "F80___120_": 25001, "Above_120_": 35677 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "YEAR": 2012, "F0___30_": 37471, "F30___50_": 28184, "F50___80_": 27805, "F80___120_": 26287, "Above_120_": 39542 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "YEAR": 2013, "F0___30_": 36478, "F30___50_": 19936, "F50___80_": 31085, "F80___120_": 29498, "Above_120_": 41634 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "YEAR": 2014, "F0___30_": 39218, "F30___50_": 22669, "F50___80_": 29790, "F80___120_": 27675, "Above_120_": 45337 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "YEAR": 2015, "F0___30_": 28942, "F30___50_": 19736, "F50___80_": 31586, "F80___120_": 27537, "Above_120_": 54614 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 11, "YEAR": 2016, "F0___30_": 33261, "F30___50_": 18634, "F50___80_": 30322, "F80___120_": 32047, "Above_120_": 55933 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 12, "YEAR": 2017, "F0___30_": 33658, "F30___50_": 17074, "F50___80_": 26114, "F80___120_": 34845, "Above_120_": 63982 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 13, "YEAR": 2018, "F0___30_": 34759, "F30___50_": 20501, "F50___80_": 29757, "F80___120_": 34241, "Above_120_": 67674 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 14, "YEAR": 2019, "F0___30_": 33598, "F30___50_": 20691, "F50___80_": 27727, "F80___120_": 36765, "Above_120_": 76590 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 15, "YEAR": 2020, "F0___30_": 33527, "F30___50_": 21384, "F50___80_": 33547, "F80___120_": 33918, "Above_120_": 75472 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 16, "YEAR": 2021, "F0___30_": 38561, "F30___50_": 23872, "F50___80_": 31325, "F80___120_": 27078, "Above_120_": 75331 }, "geometry": null },
+{ "type": "Feature", "properties": { "OBJECTID": 17, "YEAR": 2022, "F0___30_": 41559, "F30___50_": 24738, "F50___80_": 35756, "F80___120_": 34011, "Above_120_": 76413 }, "geometry": null }
+]
+}
