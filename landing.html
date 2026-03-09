@@ -1,1 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seattle Housing Affordability</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/landingbase.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body id="top">
+
+
+   <header>
+    <nav id="navbar">
+      <div id="nav-brand">
+        <span>Seattle Housing Affordability</span>
+      </div>
+      <div id="nav-links">
+        <a href="landing.html" class="active">Home</a>
+        <a href="index.html">Dashboard</a>
+        <a href="about.html">About Page</a>
+      </div>
+    </nav>
+    </header>
+
+   <section id="home" style="background-image:url('img/seattle-bg.webp'); background-position:center; background-size:cover; background-repeat:no-repeat; min-height:600px;">
+
+        <div class="overlay"></div>
+        <div class="home-content">        
+
+            <div class="row contents">                     
+                <div class="home-content-left">
+
+                    <h1>
+                        Seattle Housing Affordability <br>
+                        Mapping & Dashboard Tool
+                    </h1>
+                    <h3>
+                        An interactive choropleth map and dashboard that visualize housing affordability trends across Seattle from 2006 to 2022. This tool helps users explore changes in rent, income, and affordability across neighborhoods to better understand housing challenges in the city.
+                    </h3>
+
+                    <div class="buttons">
+                        <a href="index.html" class="button stroke">
+                            <span class="icon-circle-down" aria-hidden="true"></span>
+                            View Dashboard
+                        </a>
+                    </div>                                         
+
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+    <section id="about">
+
+        <div class="row about-intro">
+
+            <div class="col-four">
+                <h1 class="intro-header">About Our Project</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead">
+                    Seattle is a rapidly growing city known for its strong technology sector and diverse population. However, this growth has also created significant housing affordability challenges. Rising rents and limited housing supply have made it increasingly difficult for many residents to find affordable housing.
+                </p>
+                
+                <p class="lead">Housing affordability plays an important role in community well-being and economic stability. Changes in housing costs can affect where people live, neighborhood demographics, and access to opportunities. In recent years, Seattle has experienced major shifts in housing affordability driven by population growth, economic expansion, and housing policy decisions.
+                </p>
+            </div>
+            </div>
+
+        <div class="row about-features">
+            
+            <h1 class="intro-header">Our Features</h1>
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+                <div class="bgrid feature">	
+                    <div class="service-content">	
+                        <h3>Dashboard</h3>
+                        <p>The dashboard provides interactive visualizations of key housing indicators such as median rent, income levels, and affordability metrics.
+                        </p>  
+                    </div> 	         	 
+                    </div> 
+
+                <div class="bgrid feature">	
+                    <div class="service-content">	
+                        <h3>Mapping</h3>  
+                        <p>The project includes a choropleth map that displays different levels of housing affordability using color gradients. This allows users to quickly identify neighborhoods with higher or lower affordability.
+                        </p>
+                    </div>	                          
+                    </div>
+
+                <div class="bgrid feature">
+                    <div class="service-content">
+                        <h3>Timeline Scale</h3>
+                        <p>A timeline slider allows users to select different years between 2006 and 2022 and observe how housing affordability has changed over time.
+                        </p>   
+                    </div> 	            	               
+                    </div>
+
+                <div class="bgrid feature">
+                    <div class="service-content">
+                        <h3>Filter by Demographics</h3>
+                        <p>Users can filter the data by demographic characteristics to explore how housing affordability differs across communities and population groups.
+                        </p> 
+                    </div>                
+                    </div>
+
+                <div class="bgrid feature">
+                    <div class="service-content">	
+                        <h3>Bar Charts</h3>
+                        <p>Bar charts provide comparisons of housing affordability indicators across neighborhoods. These charts update dynamically based on selected filters and attributes.
+                        </p>                            
+                    </div>	               
+                    </div>
+
+                <div class="bgrid feature">
+                    <div class="service-content">
+                        <h3>Hover Popup</h3>
+                        <p>Interactive hover popups display detailed information for each neighborhood, including metrics such as median rent, income, and affordability indicators.
+                        </p> 
+                        
+                    </div>	               
+                    </div>
+
+            </div>
+
+        </div>
+
+        <div class="row about-how">
+          
+            <h1 class="intro-header">How The Map Works?</h1>           
+
+            <div class="about-how-content">
+                <div class="about-how-steps block-1-2 block-tab-full group">
+
+                    <div class="bgrid step" data-item="1">
+                        <h3>Explore the Map</h3>
+                        <p>Navigate the map by panning and zooming to explore different Seattle neighborhoods.</p>
+
+                    </div>
+
+                    <div class="bgrid step" data-item="2">
+                        <h3>Pick a Year</h3>
+                        <p>Select a year using the timeline slider to view housing affordability for that time period.</p>
+
+                    </div>               
+               
+                    <div class="bgrid step" data-item="3">
+                        <h3>Filter by Group</h3>
+                            <p>Apply demographic filters to examine affordability trends across different population groups.</p>
+ 
+                    </div>
+
+                    <div class="bgrid step" data-item="4">
+                        <h3>Analyze Data</h3>
+                            <p>Use the charts and map together to compare neighborhoods and analyze affordability patterns.</p>                    </div>  
+
+                </div>           
+           </div>
+
+        </div>  
+        
+    </section>
+
+    <section id="download">
+        <div class="row">
+            <div class="col-full">
+                <h1 class="intro-header">View the Dashboard</h1>
+                <p class="lead">
+                    Explore our interactive map and visualizations of Seattle's housing affordability trends from 2006 to 2022.
+                </p>
+                <ul class="download-badges">
+                    <li><a href="index.html" class="button button-primary large">Open Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="data-sources">
+   <div class="row data-sources-content">
+      <div class="col-twelve">
+
+         <h1 class="intro-header">Data Sources</h1>
+
+         <p class="lead">
+         The housing affordability data used in this project comes from publicly
+         available datasets related to Seattle housing, income, and demographic
+         trends. These sources help provide insight into how affordability has
+         changed across neighborhoods over time.
+         </p>
+
+      </div>
+   </div>
+
+   <div class="row">
+
+      <div class="col-four">
+         <h3>Housing Data</h3>
+         <p>
+         Median rent and housing cost data from Seattle housing reports
+         and regional housing datasets.
+         </p>
+      </div>
+
+      <div class="col-four">
+         <h3>Income Data</h3>
+         <p>
+         Household income data from census and public demographic datasets
+         used to calculate affordability indicators.
+         </p>
+      </div>
+
+      <div class="col-four">
+         <h3>Geographic Data</h3>
+         <p>
+         Seattle neighborhood boundary shapefiles used to create the
+         choropleth map visualizations.
+         </p>
+      </div>
+
+   </div>
+
+</section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="row">  
+                <div class="col-three md-1-3 tab-full footer-info">            
+                    <div class="footer-logo"></div>
+                    <p>
+                        Seattle Housing Affordability Dashboard — An interactive project visualizing housing affordability trends across Seattle from 2006 to 2022.                    </p>
+                </div> 
+
+                <div class="col-three md-1-3 tab-1-2 mob-full footer-contact">
+                    <h4>Project Info</h4>
+                    <p>
+                    University of Washington<br>
+                    Geography 458<br>
+                    Final Project
+                    </p>                    
+                </div>
+
+                <div class="col-two md-1-3 tab-1-2 mob-full footer-site-links">
+                    <h4>Site Links</h4>
+                    <ul class="list-links">
+                        <li><a href="landing.html">Home</a></li>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© 2024 Seattle Housing Affordability Dashboard</span>
+                    </div>
+                    <div id="go-top">
+                        <a title="Back to Top" href="#top">↑</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </footer>
+
+</body>
+</html>
