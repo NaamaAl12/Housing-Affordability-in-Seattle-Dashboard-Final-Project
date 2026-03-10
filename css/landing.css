@@ -660,5 +660,10 @@ footer ul a:visited {
   display: none;
 }
 
+#navbar #nav-brand {
+  font-size: 1.6rem;
+}
 
-/*# sourceMappingURL=main.css.map */
+#navbar #nav-links a {
+  font-size: 1.36rem;
+}
