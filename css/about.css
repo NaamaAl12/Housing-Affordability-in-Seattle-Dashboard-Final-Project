@@ -1,1 +1,59 @@
+.about-wrapper {
+  max-width: 860px;
+  margin: 90px auto 60px;
+  padding: 40px 40px 60px;
+}
 
+.about-wrapper h1 {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.about-wrapper h2 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent-teal);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.about-wrapper p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.about-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-wrapper ul li {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.about-wrapper ul li:last-child {
+  border-bottom: none;
+}
+
+.about-wrapper ul li a {
+  color: var(--accent-teal);
+}
+
+.about-wrapper ul li a:hover {
+  color: var(--accent);
+}
