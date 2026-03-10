@@ -186,3 +186,19 @@ function setMapLayer(layerName) {
 
   if (!mhaVisible) popup.remove();
 }
+
+function initLayerButtons() {
+  const buttons = document.querySelectorAll('.layer-btn');
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      buttons.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const layer = this.dataset.layer;
+      setMapLayer(layer);
+      const legend = document.getElementById('legend');
+      if (legend) {
+        legend.style.opacity = layer === 'mha' ? '1' : '0.3';
+      }
+    });
+  });
+}
