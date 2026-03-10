@@ -105,11 +105,8 @@ map.on('load', function () {
       });
 
       initMapInteractions();
-
-
+      initLayerButtons();
       initCharts();
-
-      
       initPanel();
 
     })
