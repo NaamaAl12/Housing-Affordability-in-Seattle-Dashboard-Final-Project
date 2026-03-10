@@ -313,7 +313,7 @@ input::-moz-focus-inner {
 #home {
   width: 100%;
   min-height: 600px;
-  background-image: url('img/seattle-bg.webp');
+  background-image: url('../img/seattle-bg.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
