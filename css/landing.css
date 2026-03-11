@@ -236,8 +236,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #39b54a;
-  border-color: #39b54a;
+  background-color: #4fc3c3;
+  border-color: #4fc3c3;
   color: #FFFFFF;
 }
 
@@ -251,8 +251,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #309a3f;
-  border-color: #309a3f;
+  background: #4fc3c3;
+  border-color: #4fc3c3;
 }
 
 button.full-width,
@@ -281,8 +281,8 @@ button.stroke,
 
 button.stroke:hover,
 .button.stroke:hover {
-  border: 0.3rem solid #39b54a;
-  color: #39b54a;
+  border: 0.3rem solid #4fc3c3;
+  color: #4fc3c3;
 }
 
 button.pill,
@@ -526,7 +526,7 @@ input::-moz-focus-inner {
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
-  background-color: #39b54a;
+  background-color: #4fc3c3;
   z-index: 500;
   position: absolute;
   top: -12px;
@@ -563,8 +563,8 @@ input::-moz-focus-inner {
 }
 
 #download {
-  background: #39b54a;
-  color: #b2fabc;
+  background: #4fc3c3;
+  color: #b8e7e7;
   padding-top: 12rem;
   padding-bottom: 12rem;
   text-align: center;
@@ -575,7 +575,7 @@ input::-moz-focus-inner {
 }
 
 #download .lead {
-  color: #b2fabc;
+  color: #b8e7e7;
   margin-top: 4.8rem;
 }
 
