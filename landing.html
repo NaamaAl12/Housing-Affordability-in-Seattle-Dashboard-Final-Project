@@ -81,7 +81,7 @@
                 <div class="bgrid feature">	
                     <div class="service-content">	
                         <h3>Dashboard</h3>
-                        <p>The dashboard provides interactive visualizations of key housing indicators such as median rent, income levels, and affordability metrics.
+                        <p>The dashboard provides interactive visualizations of key housing indicators such as median income levels and rent burden.
                         </p>  
                     </div> 	         	 
                     </div> 
@@ -89,7 +89,7 @@
                 <div class="bgrid feature">	
                     <div class="service-content">	
                         <h3>Mapping</h3>  
-                        <p>The project includes a choropleth map that displays different levels of housing affordability using color gradients. This allows users to quickly identify neighborhoods with higher or lower affordability.
+                        <p>The project includes a choropleth map that displays different levels of housing affordability using color gradients. This allows users to quickly identify neighborhoods with higher or lower affordability based on MHA zone tiers.
                         </p>
                     </div>	                          
                     </div>
@@ -112,8 +112,8 @@
 
                 <div class="bgrid feature">
                     <div class="service-content">	
-                        <h3>Bar Charts</h3>
-                        <p>Bar charts provide comparisons of housing affordability indicators across neighborhoods. These charts update dynamically based on selected filters and attributes.
+                        <h3>Data Visualization</h3>
+                        <p>Bar charts provide comparisons of housing affordability indicators across demographic groups and the line graph visualizes rent burden trends over the years.
                         </p>                            
                     </div>	               
                     </div>
@@ -121,7 +121,7 @@
                 <div class="bgrid feature">
                     <div class="service-content">
                         <h3>Hover Popup</h3>
-                        <p>Interactive hover popups display detailed information for each neighborhood, including metrics such as median rent, income, and affordability indicators.
+                        <p>Interactive hover popups display detailed information for each neighborhood, including metrics MHA zone tier and housing category.
                         </p> 
                         
                     </div>	               
@@ -140,13 +140,13 @@
 
                     <div class="bgrid step" data-item="1">
                         <h3>Explore the Map</h3>
-                        <p>Navigate the map by panning and zooming to explore different Seattle neighborhoods.</p>
+                        <p>Navigate the map by panning and zooming to explore different Seattle neighborhoods and MHA policies.</p>
 
                     </div>
 
                     <div class="bgrid step" data-item="2">
                         <h3>Pick a Year</h3>
-                        <p>Select a year using the timeline slider to view housing affordability for that time period.</p>
+                        <p>Select a year using the timeline slider to view rent burden trends and median household income for that time period.</p>
 
                     </div>               
                
@@ -198,20 +198,22 @@
    </div>
 
    <div class="row">
-
       <div class="col-four">
          <h3>Housing Data</h3>
          <p>
-         Median rent and housing cost data from Seattle housing reports
+         Rent burden greater than 50% and Mandatory Housing Affordability (MHA) Zones from Seattle housing reports
          and regional housing datasets.
+         https://catalog.data.gov/dataset/mandatory-housing-affordability-mha-zones-53917
+             https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::rent-burden-greater-than-50/about
          </p>
       </div>
 
       <div class="col-four">
          <h3>Income Data</h3>
          <p>
-         Household income data from census and public demographic datasets
+         Renter household income data from census and public demographic datasets
          used to calculate affordability indicators.
+             https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::renter-households-by-income-category/about
          </p>
       </div>
 
