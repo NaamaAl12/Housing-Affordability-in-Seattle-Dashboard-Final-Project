@@ -98,9 +98,9 @@ rather than the individual experiences with housing costs.
 | Tool | Purpose |
 |---|---|
 | HTML / CSS / JavaScript | Front-end structure, styling, and logic |
-| [Mapbox GL JS v2.15](https://www.mapbox.com/) | Interactive map rendering |
-| [C3.js v0.7](https://c3js.org/) + [D3.js v5](https://d3js.org/) | Chart generation |
-| [Proj4js](https://cdnjs.com/libraries/proj4js) | GeoJSON coordinate reprojection |
+| Mapbox GL JS | Interactive map rendering |
+| C3.js + D3.js v5 | Chart generation |
+| Proj4js | GeoJSON coordinate reprojection |
 | GeoJSON | Spatial data format for MHA zones, rent burden, and renter income |
 
 ---
