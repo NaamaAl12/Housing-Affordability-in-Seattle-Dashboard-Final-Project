@@ -1,5 +1,8 @@
 # Housing Affordability Smart Dashboard
 
+## AI Disclosure
+**No AI tools were used in this assignment**
+
 ## Project URL 
 https://naamaal12.github.io/Housing-Affordability-in-Seattle-Dashboard-Final-Project/
 
@@ -80,6 +83,15 @@ A C3.js bar chart comparing rent burden rates across six demographic groups (All
  
 ### 4. Renter Households by Income Bracket Chart
 A C3.js bar chart that displays the number of renter households in each of the five income brackets for the selected year. 
+
+---
+
+## Mandatory Affordability Zones Map:
+<img width="1369" height="752" alt="image" src="https://github.com/user-attachments/assets/abf93692-2d48-4434-91a2-acc26d642664" />
+
+## Base Map Only:
+<img width="1365" height="748" alt="image" src="https://github.com/user-attachments/assets/f1054e21-ac79-4059-b2f2-1bae0e2e5a4b" />
+
 
 ---
 
