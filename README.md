@@ -99,7 +99,7 @@ rather than the individual experiences with housing costs.
 |---|---|
 | HTML / CSS / JavaScript | Front-end structure, styling, and logic |
 | Mapbox GL JS | Interactive map rendering |
-| C3.js + D3.js v5 | Chart generation |
+| C3.js + D3.js | Chart generation |
 | Proj4js | GeoJSON coordinate reprojection |
 | GeoJSON | Spatial data format for MHA zones, rent burden, and renter income |
 
