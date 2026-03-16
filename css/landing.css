@@ -327,15 +327,8 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
-  background: -moz-linear-gradient(left, black 0%, black 20%, transparent 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, black 0%, black 20%, transparent 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000', GradientType=1);
-  /* IE6-9 */
+  opacity: .5;
+  background: linear-gradient(to right, black 0%, black 40%, transparent 100%);
 }
 
 #home .overlay {
@@ -344,7 +337,7 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
+  opacity: .55;
   background-color: #000000;
 }
 
@@ -370,12 +363,13 @@ input::-moz-focus-inner {
 }
 
 .home-content-left h3 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.92);
   font-size: 1.6rem;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: .2rem;
   margin-bottom: 2.4rem;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.95), 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .home-content-left h1 {
@@ -385,6 +379,7 @@ input::-moz-focus-inner {
   line-height: 1.269;
   color: #ffffff;
   margin-bottom: 9rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9), 0 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 .home-content-left .button.stroke {
